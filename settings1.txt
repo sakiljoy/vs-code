@@ -47,3 +47,29 @@
 	"workbench.iconTheme": "material-icon-theme",
 	"files.autoSave": "afterDelay"
 }
+
+
+
+
+//v2:after configuring for node and js by lws
+
+{
+  // node/js config is included
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": false,
+    "editor.defaultFormatter": null
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true
+  },
+  "eslint.alwaysShowStatus": true,
+  "workbench.colorTheme": "Forest Focus",
+  "window.zoomLevel": 1,
+  "editor.mouseWheelZoom": true,
+  "editor.minimap.enabled": false,
+  "breadcrumbs.enabled": false
+}
+
