@@ -1,75 +1,34 @@
 {
-	"editor.mouseWheelZoom": true,
-	"code-runner.clearPreviousOutput": true,
-	"code-runner.runInTerminal": true,
-	"code-runner.saveFileBeforeRun": true,
-	"explorer.confirmDelete": false,
-	"liveServer.settings.donotVerifyTags": true,
-	"liveServer.settings.donotShowInfoMsg": true,
-	"background.opacity": 1,
-	"background.filepath": "/home/joy/Desktop/git/download.jpeg",
-	"background.loop": true,
-	"settingsSync.ignoredSettings": ["-window.zoomLevel"],
-	"[html]": {
-		"editor.defaultFormatter": "vscode.html-language-features"
-	},
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
-	"editor.formatOnSave": true,
-	"prettier.useTabs": true,
-	"[cpp]": {
-		"editor.defaultFormatter": "ms-vscode.cpptools"
-	},
-	"[c]": {
-		"editor.defaultFormatter": "ms-vscode.cpptools"
-	},
-	"code-runner.saveAllFilesBeforeRun": true,
-	"terminal.integrated.defaultProfile.windows": "PowerShell",
-	"workbench.startupEditor": "none",
-	"emmet.includeLanguages": {
-		"ejs": "html",
-		"javascript": "javascriptreact"
-	},
-	"editor.minimap.enabled": false,
-	"editor.wordWrap": "on",
-	"editor.hover.enabled": false,
-	"editor.fontLigatures": false,
-	"terminal.integrated.cursorBlinking": true,
-	"explorer.confirmDragAndDrop": false,
-	"explorer.compactFolders": false,
-	"editor.fontFamily": "'Cascadia Code SemiBold', Consolas, 'Courier New', monospace",
-	"editor.fontSize": 15,
-	"editor.fontWeight": "600",
-	"terminal.integrated.fontFamily": "monospace",
-	"workbench.colorTheme": "Forest Focus",
-	"sqltools.autoOpenSessionFiles": false,
-	"breadcrumbs.enabled": false,
-	"window.menuBarVisibility": "compact",
-	"workbench.iconTheme": "material-icon-theme",
-	"files.autoSave": "afterDelay"
-}
-
-
-
-
-//v2:after configuring for node and js by lws
-
-{
   // node/js config is included
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.formatOnSave": false,
-    "editor.defaultFormatter": null
-  },
+  // "[javascript]": {
+  //   "editor.formatOnSave": false,
+  //   "editor.defaultFormatter": null
+  // },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.organizeImports": true
   },
   "eslint.alwaysShowStatus": true,
-  "workbench.colorTheme": "Forest Focus",
-  "window.zoomLevel": 1,
   "editor.mouseWheelZoom": true,
   "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false
+  "breadcrumbs.enabled": false,
+  "editor.fontFamily": "'Cascadia Code', 'monospace', monospace",
+  "editor.fontWeight": "bold",
+  "liveServer.settings.donotShowInfoMsg": true,
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "editor.fontSize": 16,
+  "editor.hover.enabled": false,
+  "workbench.startupEditor": "none",
+  "explorer.confirmDragAndDrop": false,
+  "files.autoSave": "afterDelay",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.colorTheme": "Darcula",
+  //emmet support in react projects
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  }
 }
-
