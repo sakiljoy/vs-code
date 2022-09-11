@@ -12,8 +12,6 @@
   },
   "eslint.alwaysShowStatus": true,
   "editor.mouseWheelZoom": true,
-  "editor.minimap.enabled": false,
-  "breadcrumbs.enabled": false,
   "editor.fontFamily": "'Cascadia Code', 'monospace', monospace",
   "editor.fontWeight": "bold",
   "liveServer.settings.donotShowInfoMsg": true,
@@ -26,9 +24,24 @@
   "explorer.confirmDragAndDrop": false,
   "files.autoSave": "afterDelay",
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.colorTheme": "Darcula",
   //emmet support in react projects
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
-  }
+  },
+  "emojisense.languages": {
+    "markdown": true,
+    "plaintext": {
+      "markupCompletionsEnabled": false,
+      "emojiDecoratorsEnabled": false
+    },
+    "scminput": true,
+    "git-commit": true,
+    "javascript": true,
+    "javascriptreact": true,
+    "html": true,
+    "typescript": true,
+    "typescriptreact": true
+  },
+  "window.zoomLevel": 1,
+  "editor.minimap.enabled": false
 }
