@@ -2,18 +2,19 @@
   // node/js config is included
   "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.formatOnSave": true,
-  // "[javascript]": {
-  //   "editor.formatOnSave": false,
-  //   "editor.defaultFormatter": null
-  // },
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true,
     "source.organizeImports": true
   },
+
   "eslint.alwaysShowStatus": true,
   "editor.mouseWheelZoom": true,
-  "editor.fontFamily": "'Cascadia Code', 'monospace', monospace",
-  "editor.fontWeight": "bold",
+  "editor.fontFamily": "",
+  "editor.fontWeight": "normal",
   "liveServer.settings.donotShowInfoMsg": true,
   "explorer.compactFolders": false,
   "explorer.confirmDelete": false,
@@ -22,8 +23,7 @@
   "editor.hover.enabled": false,
   "workbench.startupEditor": "none",
   "explorer.confirmDragAndDrop": false,
-  "files.autoSave": "afterDelay",
-  "workbench.iconTheme": "material-icon-theme",
+  "workbench.iconTheme": "vscode-icons",
   //emmet support in react projects
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
@@ -42,6 +42,27 @@
     "typescript": true,
     "typescriptreact": true
   },
-  "window.zoomLevel": 1,
-  "editor.minimap.enabled": false
+  "editor.minimap.enabled": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "workbench.layoutControl.enabled": false,
+  "workbench.colorTheme": "GitHub Dark",
+  "files.autoSave": "afterDelay",
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.editorAssociations": {
+    "*.txt": "default"
+  },
+
+  "code-runner.clearPreviousOutput": true,
+  "code-runner.runInTerminal": true,
+  "code-runner.saveAllFilesBeforeRun": true,
+  "code-runner.saveFileBeforeRun": true,
+  "eslint.format.enable": true,
+  "[cpp]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  },
+  "[c]": {
+    "editor.defaultFormatter": "ms-vscode.cpptools"
+  }
+
+  //coolest fonts :'Cascadia Code', 'conosolas', monospace
 }
